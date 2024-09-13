@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cambiar de fondo</title>
+    <link rel="stylesheet" href="botondecolor.css">
+</head>
+
+<body>
+    <button id="cambiofondo" onclick="cambiarFondoDocumento()" class="cuadrado"></button>
+
+    <script>
+        function cambiarFondoDocumento() {
+            let body = document.getElementsByTagName('body')[0];
+
+            body.style.backgroundColor = '#f00'
+        }
+    </script>
+
+    <button id="cambiofondo2" onclick="cambiarFondoDocumento2()" class="cuadrado2"></button>
+
+    <script>
+        function cambiarFondoDocumento2() {
+            let body = document.getElementsByTagName('body')[0];
+
+            body.style.backgroundColor = '#00f'
+        }
+    </script>
+
+    <button id="cambiofondo3" onclick="cambiarFondoDocumento3()" class="cuadrado3"></button>
+
+    <script>
+        function cambiarFondoDocumento3() {
+            let body = document.getElementsByTagName('body')[0];
+
+            body.style.backgroundColor = '#080'
+        }
+    </script>
+</body>
+
+</html>
